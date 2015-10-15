@@ -11,8 +11,8 @@ public final class Broker {
     Socket socket = null;
 
     public Broker(){
-        registerService("ECHO");
-        registerService("UPDATE");
+        registerService("Vote");
+        registerService("Add");
         initCom();
     }
 

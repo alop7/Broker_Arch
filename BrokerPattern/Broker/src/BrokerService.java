@@ -5,7 +5,6 @@ public class BrokerService{
 	private String name;
 
 	public BrokerService(String name){
-            System.out.println("Me has Agregado!");
             this.name = name;
 	}
         
